@@ -1,0 +1,13 @@
+<svg height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="64" ><defs ><g id="auto-unique-1001"><rect x="2" rx="4" ry="4" height="60" y="2" width="60" fill="#FFFFFF" stroke-width="1.1" stroke="#888888" />
+ <rect x="1" rx="5" ry="5" height="62" y="1" width="62" fill="none" stroke-width="1" stroke="#000000" />
+ <rect x="6.4" rx="0" ry="0" height="25.6" y="25.6" width="51.2" fill="#888888" stroke-width="0" stroke="none" />
+ <line x1="6.4" y1="24.6" y2="24.6" x2="57.6" stroke-width="3" stroke="#1f9dea" />
+ <line x1="6.4" y1="52.2" y2="52.2" x2="57.6" stroke-width="3" stroke="#1f9dea" />
+ <line x1="6.4" y1="5.9" y2="5.9" x2="57.6" stroke-width="2" stroke="#0000FF" />
+ <line x1="32.0" y1="7.9" y2="22.85" x2="32.0" stroke-width="3" stroke="#ff0000" />
+ <polyline transform="translate(32.0, 24.6)  rotate(0, 0, 0)" points="-4.5,-6  4.5,-6  0,0" fill="#d20000" stroke-width="0" stroke="none" />
+ <rect x="28.0" rx="0" ry="0" height="25.6" y="24.6" width="8" fill="#0000FF" stroke-width="0" stroke="none" />
+</g>
+</defs>
+ <use xlink:href="#auto-unique-1001" />
+</svg>

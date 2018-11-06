@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" ><defs ><g id="auto-unique-1001"><rect y="2" rx="4" ry="4" width="60" height="60" x="2" stroke="#888888" fill="#FFFFFF" stroke-width="1.1" />
+ <rect y="1" rx="5" ry="5" width="62" height="62" x="1" stroke="#000000" fill="none" stroke-width="1" />
+ <rect y="25.6" rx="0" ry="0" width="51.2" height="25.6" x="6.4" stroke="none" fill="#888888" stroke-width="0" />
+ <line x1="6.4" x2="57.6" y2="24.6" y1="24.6" stroke="#1f9dea" stroke-width="3" />
+ <line x1="6.4" x2="57.6" y2="52.2" y1="52.2" stroke="#1f9dea" stroke-width="3" />
+ <line x1="6.4" x2="57.6" y2="5.9" y1="5.9" stroke="#0000FF" stroke-width="2" />
+ <line x1="16.0" x2="16.0" y2="22.85" y1="7.9" stroke="#ff0000" stroke-width="3" />
+ <polyline points="-4.5,-6  4.5,-6  0,0" transform="translate(16.0, 24.6)  rotate(0, 0, 0)" stroke="none" fill="#d20000" stroke-width="0" />
+ <rect y="24.6" rx="0" ry="0" width="8" height="25.6" x="28.0" stroke="none" fill="#0000FF" stroke-width="0" />
+ <line x1="32.0" x2="32.0" y2="48.45" y1="37.4" stroke="#ff0000" stroke-width="3" />
+ <polyline points="-4.5,-6  4.5,-6  0,0" transform="translate(32.0, 50.2)  rotate(0, 0, 0)" stroke="none" fill="#d20000" stroke-width="0" />
+ <line x1="32.0" x2="32.0" y2="35.65" y1="24.6" stroke="#ff0000" stroke-width="3" />
+ <polyline points="-4.5,-6  4.5,-6  0,0" transform="translate(32.0, 37.4)  rotate(0, 0, 0)" stroke="none" fill="#d20000" stroke-width="0" />
+ <line x1="48.0" x2="48.0" y2="9.65" y1="50.2" stroke="#ff0000" stroke-width="3" />
+ <polyline points="-4.5,-6  4.5,-6  0,0" transform="translate(48.0, 7.9)  rotate(180, 0, 0)" stroke="none" fill="#d20000" stroke-width="0" />
+</g>
+</defs>
+ <use xlink:href="#auto-unique-1001" />
+</svg>
