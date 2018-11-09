@@ -9,7 +9,7 @@
 3. В разработке - [Исполнительные устройства](periphery.md)
 4. В разработке - [Компилятор](compiller.md) 
 5. В разработке - [CAM модуль](camsys.md)
-6. [Генратор](gen.A5MC2.md)
+6. [Генератор](gen.A5MC2.md)
 7. [Прошивка](sew.md)
 
 ![Image](http://edm.ru/style/bottom.png)
