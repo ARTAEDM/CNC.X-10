@@ -10,13 +10,13 @@
 
 | ВАРИАНТ    |   ПО                             | ВХОДЫ/ВЫХОДЫ      | ГЕНЕРАТОР  | ПЕРЕМОТКА | ПУЛЬТ ДУ. | SDRV        |
 |------------|----------------------------------|-------------------|------------|-----------|-----------|-------------|
-| MOXA       | [V3.1](RCNC/MOXA/lancnc.exe)          | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
-| MOXA0      | [V3.1](RCNC/MOXA0/lancnc.exe)         | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
-| MOXA1      | [V3.1](RCNC/MOXA1/lancnc.exe)         | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
-| PCL730_3   | [V3.1](RCNC/PCL730_3/lancnc.exe)      | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
-| PCL745     | [V3.1](RCNC/PCL745/lancnc.exe)        | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
-| PCL745_SER | [V3.1](RCNC/PCL745_SER/lancnc.exe)    | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
-| PCL849     | [V3.1](RCNC/PCL849/lancnc.exe)        | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
+| MOXA       | [V3.3](RCNC/MOXA/lancnc.exe)          | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
+| MOXA0      | [V3.3](RCNC/MOXA0/lancnc.exe)         | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
+| MOXA1      | [V3.3](RCNC/MOXA1/lancnc.exe)         | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
+| PCL730_3   | [V3.3](RCNC/PCL730_3/lancnc.exe)      | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
+| PCL745     | [V3.3](RCNC/PCL745/lancnc.exe)        | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
+| PCL745_SER | [V3.3](RCNC/PCL745_SER/lancnc.exe)    | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
+| PCL849     | [V3.3](RCNC/PCL849/lancnc.exe)        | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
 
 ## Как определить какой вариант установлен?
 1. Открыть шкаф СЧПУ (крепится 4 винтами)
@@ -44,6 +44,8 @@
 3. Вернуть диск обратно.
 
 ## История изменений.
+* 3.3 Исправлена ошибка приводящая к сбою при откате после восстановления задачи.
+* 3.2 Изменения в работе гидросистемы.
 * 3.1 Добавлена функция установки станочной координаты в заданное значение
 * 3.0 Базовая версия.
 
