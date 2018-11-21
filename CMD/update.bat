@@ -1,1 +1,1 @@
-copy d:\UPD.DOS\lancnc.exe c:\cnc\ /Y
+copy d:\lancnc.exe c:\cnc\ /Y
