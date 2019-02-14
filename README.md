@@ -11,5 +11,6 @@
 5. В разработке - [CAM модуль](camsys.md)
 6. [Генератор](gen.A5MC2.md)
 7. [Прошивка](sew.md)
+8. [Оптика](optics.md)
 
 ![Image](http://edm.ru/style/bottom.png)
