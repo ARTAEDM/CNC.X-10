@@ -12,5 +12,6 @@
 6. [Генератор](gen.A5MC2.md)
 7. [Прошивка](sew.md)
 8. [Оптика](optics.md)
+9. [Дистанционная поддержка](support.md)
 
 ![Image](http://edm.ru/style/bottom.png)
