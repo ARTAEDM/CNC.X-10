@@ -16,7 +16,7 @@
 | PCL730_3   | [V3.8](RCNC/PCL730_3/lancnc38.zip),[V3.7](RCNC/PCL730_3/lancnc37.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
 | PCL745     | [V3.8](RCNC/PCL745/lancnc38.zip),[V3.7](RCNC/PCL745/lancnc37.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
 | PCL745_SER | [V3.8](RCNC/PCL745_SER/lancnc38.zip),[V3.7](RCNC/PCL745_SER/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
-| PCL849     | [V3.8](RCNC/PCL849/lancnc38.zip),[V3.7](RCNC/PCL849/lancnc37.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
+| PCL849     | [V3.9](RCNC/PCL849/lancnc39.zip),[V3.7](RCNC/PCL849/lancnc37.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
 
 ## Как определить какой вариант установлен?
 1. Открыть шкаф СЧПУ (крепится 4 винтами)
@@ -45,6 +45,7 @@
 3. Вернуть диск обратно.
 
 ## История изменений.
+* 3.9 Шпиндель игнорирует кадры паузы (Pxxx)
 * 3.8 Поддержка шпиндельной координаты
 * 3.7 Поддержка отключения питания после остановки системы.
 * 3.6 Ограничение скорости неускоренного движения. 
