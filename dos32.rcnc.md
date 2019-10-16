@@ -10,12 +10,12 @@
 
 | ВАРИАНТ    |   ПО                                  | ВХОДЫ/ВЫХОДЫ      | ГЕНЕРАТОР  | ПЕРЕМОТКА | ПУЛЬТ ДУ. | SDRV        |
 |------------|---------------------------------------|-------------------|------------|-----------|-----------|-------------|
-| MOXA       | [V3.8](RCNC/MOXA/lancnc38.zip),[V3.7](RCNC/MOXA/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
-| MOXA0      | [V3.8](RCNC/MOXA0/lancnc38.zip),[V3.7](RCNC/MOXA0/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
-| MOXA1      | [V3.8](RCNC/MOXA1/lancnc38.zip),[V3.7](RCNC/MOXA1/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
-| PCL730_3   | [V3.8](RCNC/PCL730_3/lancnc38.zip),[V3.7](RCNC/PCL730_3/lancnc37.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
-| PCL745     | [V3.8](RCNC/PCL745/lancnc38.zip),[V3.7](RCNC/PCL745/lancnc37.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
-| PCL745_SER | [V3.8](RCNC/PCL745_SER/lancnc38.zip),[V3.7](RCNC/PCL745_SER/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
+| MOXA       | [V3.10](RCNC/MOXA/lancnc310.zip),[V3.8](RCNC/MOXA/lancnc38.zip),[V3.7](RCNC/MOXA/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
+| MOXA0      | [V3.10](RCNC/MOXA0/lancnc310.zip),[V3.8](RCNC/MOXA0/lancnc38.zip),[V3.7](RCNC/MOXA0/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
+| MOXA1      | [V3.10](RCNC/MOXA1/lancnc310.zip),[V3.8](RCNC/MOXA1/lancnc38.zip),[V3.7](RCNC/MOXA1/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
+| PCL730_3   | [V3.10](RCNC/PCL730_3/lancnc310.zip),[V3.8](RCNC/PCL730_3/lancnc38.zip),[V3.7](RCNC/PCL730_3/lancnc37.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
+| PCL745     | [V3.10](RCNC/PCL745/lancnc310.zip),[V3.8](RCNC/PCL745/lancnc38.zip),[V3.7](RCNC/PCL745/lancnc37.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
+| PCL745_SER | [V3.10](RCNC/PCL745_SER/lancnc310.zip),[V3.8](RCNC/PCL745_SER/lancnc38.zip),[V3.7](RCNC/PCL745_SER/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
 | PCL849     | [V3.10](RCNC/PCL849/lancnc310.zip),[V3.9](RCNC/PCL849/lancnc39.zip),[V3.7](RCNC/PCL849/lancnc37.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
 
 ## Как определить какой вариант установлен?
