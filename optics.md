@@ -1,4 +1,4 @@
-![Image](http://edm.ru/style/top.png)
+![Image](https://edm.ru/img/logo.png)
 
 # Система оптического контроля обработки
 

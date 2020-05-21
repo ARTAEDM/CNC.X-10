@@ -1,4 +1,4 @@
-﻿![Image](http://edm.ru/style/top.png)
+﻿![Image](https://edm.ru/img/logo.png)
 # ГЕНЕРАТОР АРТА-5МС2
 TODO:
 

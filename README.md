@@ -1,4 +1,4 @@
-![Image](http://edm.ru/style/top.png)
+![Image](https://edm.ru/img/logo.png)
 
 # Добро пожаловать на страницу поддержки системы СЧПУ АРТА.X-10
 
@@ -14,4 +14,3 @@
 8. [Оптика](optics.md)
 9. [Дистанционная поддержка](support.md)
 
-![Image](http://edm.ru/style/bottom.png)
