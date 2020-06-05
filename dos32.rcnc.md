@@ -12,6 +12,7 @@
 |------------|---------------------------------------|-------------------|------------|-----------|-----------|-------------|
 | MOXA       | [V3.10](RCNC/MOXA/lancnc310.zip),[V3.8](RCNC/MOXA/lancnc38.zip),[V3.7](RCNC/MOXA/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
 | MOXA0      | [V3.10](RCNC/MOXA0/lancnc310.zip),[V3.8](RCNC/MOXA0/lancnc38.zip),[V3.7](RCNC/MOXA0/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
+| MOXA00     | [V3.10](RCNC/MOXA00/lancnc310.zip),[V3.8](RCNC/MOXA00/lancnc38.zip),[V3.7](RCNC/MOXA00/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.2,4 | IOWA.COM3 | MOXA.1    |
 | MOXA1      | [V3.10](RCNC/MOXA1/lancnc310.zip),[V3.8](RCNC/MOXA1/lancnc38.zip),[V3.7](RCNC/MOXA1/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
 | PCL730_3   | [V3.10](RCNC/PCL730_3/lancnc310.zip),[V3.8](RCNC/PCL730_3/lancnc38.zip),[V3.7](RCNC/PCL730_3/lancnc37.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
 | PCL745     | [V3.10](RCNC/PCL745/lancnc310.zip),[V3.8](RCNC/PCL745/lancnc38.zip),[V3.7](RCNC/PCL745/lancnc37.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
@@ -24,6 +25,7 @@
 	1. если на станке нет перемотки проволоки и вращения электрода, то вариант **MOXA0**.
 	2. если разъёмы с разветвителя с номерами 3 и 4 используются, то вариант **MOXA**.
 	3. иначе **MOXA1**.
+	4. если в станке вторая плата перемотки управляет шпинделем **MOXA00**.
 3. Если установлено 3 одинаковые платы PCL730 или ISO-730, то вариант **PCL730_3** (редкий).
 4. Если установлена плата ![Image](IMG/PCL849ad.jpg), то вариант **PCL849** (2017-2019г).
 5. Если используются платы управления шаговыми двигателями формата SDRV (подключаются через SATA кабель) ![Image](IMG/SDRV.jpg), 
