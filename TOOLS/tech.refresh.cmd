@@ -1,0 +1,1 @@
+tech.autodoc.lua > ..\tech.tab.md
