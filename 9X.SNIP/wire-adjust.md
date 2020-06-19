@@ -6,10 +6,11 @@
 ```
   <GROUP NAME=WireControll>
     ...
-    <VAL NAME=WK1  TYPE=REAL VALUE=      6 MIN=0.000000 MAX=100.000000>
-    <VAL NAME=WK2  TYPE=REAL VALUE=    100 MIN=0.000000 MAX=100.000000>
-    <VAL NAME=WSlo TYPE=REAL VALUE=    0.4 MIN=0.000000 MAX=100.000000>
-    <VAL NAME=WShi TYPE=REAL VALUE=   15.5 MIN=0.000000 MAX=100.000000>
+    <VAL NAME=WSPDauto TYPE=BYTE VALUE=      0 MIN=0        MAX=1>
+    <VAL NAME=WK1      TYPE=REAL VALUE=      6 MIN=0.000000 MAX=100.000000>
+    <VAL NAME=WK2      TYPE=REAL VALUE=    100 MIN=0.000000 MAX=100.000000>
+    <VAL NAME=WSlo     TYPE=REAL VALUE=    0.4 MIN=0.000000 MAX=100.000000>
+    <VAL NAME=WShi     TYPE=REAL VALUE=   15.5 MIN=0.000000 MAX=100.000000>
     ...
   </GROUP>
 ```
@@ -18,10 +19,12 @@
 `WK2` - мощность максимальной скорости вращения **0..100**  
 `WSlo` - минимальная скорость перемотки **м/мин**  
 `WShi` - максимальная скорость перемотки **м/мин**  
+`WSPDauto` - выполнять подстройку скорости **0/1**
 
 ## Калибровка
 Для калибровки следует: 
-1. установить `WK1`=0, `WK2`=100, `WSlo` =0, `WShi`=100
+
+1. установить `WK1`=0, `WK2`=100, `WSlo` =0, `WShi`=100, `WSPDauto`=0
 2. перезагрузить станок
 3. установить средний уровень натяжения
 4. установить максимальную скорость перемотки
@@ -38,3 +41,5 @@
 `WSlo` <= `vB`  
 `WShi` <= `vC`  
 
+При использовании намоточной катушки следует установить `WSPDauto`=1. 
+Это позволит компенсировать увеличение скорости по мере намотки проволоки на катушку.
