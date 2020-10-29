@@ -8,7 +8,7 @@
 2.1. Restore AC Power Loss - **Power on**  
 2.2. OS Selection - **Windows 7**  
 2.3. Soft-off by PWR-BTN - **Delay 4 Sec.**  
-3. **Boot**
+3. **Boot**  
 3.1. Setup Prompt Timeout - **3**  
 3.2. Boot Option #1 - **SanDisk**  
 
