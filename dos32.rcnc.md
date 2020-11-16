@@ -10,14 +10,14 @@
 
 | ВАРИАНТ    |   ПО                                  | ВХОДЫ/ВЫХОДЫ      | ГЕНЕРАТОР  | ПЕРЕМОТКА | ПУЛЬТ ДУ. | SDRV        |
 |------------|---------------------------------------|-------------------|------------|-----------|-----------|-------------|
-| MOXA       | [V3.15](RCNC/MOXA/lancnc315.zip),[V3.10](RCNC/MOXA/lancnc310.zip),[V3.8](RCNC/MOXA/lancnc38.zip),[V3.7](RCNC/MOXA/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
-| MOXA0      | [V3.15](RCNC/MOXA0/lancnc315.zip),[V3.10](RCNC/MOXA0/lancnc310.zip),[V3.8](RCNC/MOXA0/lancnc38.zip),[V3.7](RCNC/MOXA0/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
-| MOXA00     | [V3.15](RCNC/MOXA00/lancnc315.zip),[V3.10](RCNC/MOXA00/lancnc310.zip),[V3.8](RCNC/MOXA00/lancnc38.zip),[V3.7](RCNC/MOXA00/lancnc37.zip) | PCL730(1,2)       | MOXA.3     | MOXA.2,4 | IOWA.COM3 | MOXA.1    |
-| MOXA1      | [V3.15](RCNC/MOXA1/lancnc315.zip),[V3.10](RCNC/MOXA1/lancnc310.zip),[V3.8](RCNC/MOXA1/lancnc38.zip),[V3.7](RCNC/MOXA1/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
-| PCL730_3   | [V3.15](RCNC/PCL730_3/lancnc315.zip),[V3.10](RCNC/PCL730_3/lancnc310.zip),[V3.8](RCNC/PCL730_3/lancnc38.zip),[V3.7](RCNC/PCL730_3/lancnc37.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
-| PCL745     | [V3.15](RCNC/PCL745/lancnc315.zip),[V3.10](RCNC/PCL745/lancnc310.zip),[V3.8](RCNC/PCL745/lancnc38.zip),[V3.7](RCNC/PCL745/lancnc37.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
-| PCL745_SER | [V3.15](RCNC/PCL745_SER/lancnc315.zip),[V3.10](RCNC/PCL745_SER/lancnc310.zip),[V3.8](RCNC/PCL745_SER/lancnc38.zip),[V3.7](RCNC/PCL745_SER/lancnc37.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
-| PCL849     | [V3.15](RCNC/PCL849/lancnc315.zip),[V3.13](RCNC/PCL849/lancnc313.zip),[V3.10](RCNC/PCL849/lancnc310.zip),[V3.9](RCNC/PCL849/lancnc39.zip),[V3.7](RCNC/PCL849/lancnc37.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
+| MOXA       | [V3.16](RCNC/MOXA/lancnc316.zip),[V3.15](RCNC/MOXA/lancnc315.zip),[V3.10](RCNC/MOXA/lancnc310.zip),[V3.8](RCNC/MOXA/lancnc38.zip) | PCL730(1,2)       | MOXA.3     | MOXA.4    | IOWA.COM3 | MOXA.1-2    |
+| MOXA0      | [V3.16](RCNC/MOXA0/lancnc316.zip),[V3.15](RCNC/MOXA0/lancnc315.zip),[V3.10](RCNC/MOXA0/lancnc310.zip),[V3.8](RCNC/MOXA0/lancnc38.zip) | PCL730(1,2)       | MOXA.3     | НЕТ       | MOXA.4    | MOXA.1-2    |
+| MOXA00     | [V3.16](RCNC/MOXA00/lancnc316.zip),[V3.15](RCNC/MOXA00/lancnc315.zip),[V3.10](RCNC/MOXA00/lancnc310.zip),[V3.8](RCNC/MOXA00/lancnc38.zip) | PCL730(1,2)       | MOXA.3     | MOXA.2,4 | IOWA.COM3 | MOXA.1    |
+| MOXA1      | [V3.16](RCNC/MOXA1/lancnc316.zip),[V3.15](RCNC/MOXA1/lancnc315.zip),[V3.10](RCNC/MOXA1/lancnc310.zip),[V3.8](RCNC/MOXA1/lancnc38.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | MOXA.1-2    |
+| PCL730_3   | [V3.16](RCNC/PCL730_3/lancnc316.zip),[V3.15](RCNC/PCL730_3/lancnc315.zip),[V3.10](RCNC/PCL730_3/lancnc310.zip),[V3.8](RCNC/PCL730_3/lancnc38.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
+| PCL745     | [V3.16](RCNC/PCL745/lancnc316.zip),[V3.15](RCNC/PCL745/lancnc315.zip),[V3.10](RCNC/PCL745/lancnc310.zip),[V3.8](RCNC/PCL745/lancnc38.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
+| PCL745_SER | [V3.16](RCNC/PCL745_SER/lancnc316.zip),[V3.15](RCNC/PCL745_SER/lancnc315.zip),[V3.10](RCNC/PCL745_SER/lancnc310.zip),[V3.8](RCNC/PCL745_SER/lancnc38.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
+| PCL849     | [V3.16](RCNC/PCL849/lancnc316.zip),[V3.15](RCNC/PCL849/lancnc315.zip),[V3.13](RCNC/PCL849/lancnc313.zip),[V3.10](RCNC/PCL849/lancnc310.zip),[V3.9](RCNC/PCL849/lancnc39.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
 
 ## Как определить какой вариант установлен?
 1. Открыть шкаф СЧПУ (крепится 4 винтами)
@@ -47,6 +47,7 @@
 3. Вернуть диск обратно.
 
 ## История изменений.
+* 3.16 Включена опция "ПОКАДРОВАЯ" обработка.
 * 3.15 Исправлена ошибка обработки очереди программных последовательностей.
 * 3.13 Добавлен механизм форсирования выходов для противодействию помех.
 * 3.10 Скорректированы скорости движения по UV (для x54 систем)
