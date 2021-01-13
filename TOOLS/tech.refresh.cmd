@@ -1,1 +1,1 @@
-tech.autodoc.lua > ..\tech.tab.md
+lua53.exe tech.autodoc.lua > ..\tech.tab.md
