@@ -17,7 +17,7 @@
 | PCL730_3   | [V3.16](RCNC/PCL730_3/lancnc316.zip),[V3.15](RCNC/PCL730_3/lancnc315.zip),[V3.10](RCNC/PCL730_3/lancnc310.zip),[V3.8](RCNC/PCL730_3/lancnc38.zip) | PCL730(1,2,3)     | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | НЕТ         |
 | PCL745     | [V3.16](RCNC/PCL745/lancnc316.zip),[V3.15](RCNC/PCL745/lancnc315.zip),[V3.10](RCNC/PCL745/lancnc310.zip),[V3.8](RCNC/PCL745/lancnc38.zip) | PCL730(1,2)       | PCL745.2   | PCL745.1  | IOWA.COM3 | НЕТ         |
 | PCL745_SER | [V3.16](RCNC/PCL745_SER/lancnc316.zip),[V3.15](RCNC/PCL745_SER/lancnc315.zip),[V3.10](RCNC/PCL745_SER/lancnc310.zip),[V3.8](RCNC/PCL745_SER/lancnc38.zip) | PCL730(1,2)       | IOWA.COM2  | IOWA.COM1 | IOWA.COM3 | PCL745.1-2  |
-| PCL849     | [V3.16](RCNC/PCL849/lancnc316.zip),[V3.15](RCNC/PCL849/lancnc315.zip),[V3.13](RCNC/PCL849/lancnc313.zip),[V3.10](RCNC/PCL849/lancnc310.zip),[V3.9](RCNC/PCL849/lancnc39.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
+| PCL849     | [V3.17](RCNC/PCL849/lancnc317.zip),[V3.16](RCNC/PCL849/lancnc316.zip),[V3.15](RCNC/PCL849/lancnc315.zip),[V3.13](RCNC/PCL849/lancnc313.zip),[V3.10](RCNC/PCL849/lancnc310.zip),[V3.9](RCNC/PCL849/lancnc39.zip) | PCL730(1,2)       | PCL849.3   | PCL849.4  | IOWA.COM3 | PCL849.1-2  |
 
 ## Как определить какой вариант установлен?
 1. Открыть шкаф СЧПУ (крепится 4 винтами)
@@ -47,6 +47,7 @@
 3. Вернуть диск обратно.
 
 ## История изменений.
+* 3.17 Исправлены ошибки настройки ШД.
 * 3.16 Включена опция "ПОКАДРОВАЯ" обработка.
 * 3.15 Исправлена ошибка обработки очереди программных последовательностей.
 * 3.13 Добавлен механизм форсирования выходов для противодействию помех.
