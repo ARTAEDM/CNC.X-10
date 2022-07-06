@@ -6,6 +6,13 @@
 ```
   <GROUP NAME=WireControll>
     ...
+    <VAL NAME=MSpeed TYPE=REAL VALUE=      0.8 MIN=0.000000 MAX=10.000000>
+    <VAL NAME=MTention TYPE=REAL VALUE=      0 MIN=0.000000 MAX=2.000000>
+    ...
+    <VAL NAME=PickupStart TYPE=BYTE VALUE=1 MIN=0 MAX=50>
+    <VAL NAME=PickupShift TYPE=BYTE VALUE=40 MIN=0 MAX=250>
+    <VAL NAME=PickupStep TYPE=BYTE VALUE=150 MIN=1 MAX=255>
+    ...
     <VAL NAME=WSPDauto TYPE=BYTE VALUE=      0 MIN=0        MAX=1>
     <VAL NAME=WK1      TYPE=REAL VALUE=      6 MIN=0.000000 MAX=100.000000>
     <VAL NAME=WK2      TYPE=REAL VALUE=    100 MIN=0.000000 MAX=100.000000>
@@ -14,6 +21,13 @@
     ...
   </GROUP>
 ```
+
+`MSpeed` - скорость перемотки при выверке **м/мин**  
+`MTention` - натяжение при выверке (0=не изменять) **0..2.0**  
+
+`PickupStart` - начальное положение раскладчика **мм**  
+`PickupShift` - рабочая часть приёмной катушки **мм**  
+`PickupStep` - шаг раскладчика (определяет скорость) **1..255**  
 
 `WK1` - мощность начала вращения ролика перемотки **0..100**  
 `WK2` - мощность максимальной скорости вращения **0..100**  
