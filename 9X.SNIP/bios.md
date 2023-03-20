@@ -6,5 +6,5 @@
 
 1. [Материнская плата IOWA-GX-466 + PCL745](BIOS/IOWA-GX-466+PCL745.pdf)
 2. [Материнская плата IOWA-GX-466 + адаптер 3x422](BIOS/IOWA-GX-466+3x422.pdf)
-3. [Материнская плата IOWA-GX-466 + MOXA](IOWA-GX-466+MOXA.pdf)
+3. [Материнская плата IOWA-GX-466 + MOXA](BIOS/IOWA-GX-466+MOXA.pdf)
 4. [Материнская плата PCA-6781](BIOS/PCA-6781.pdf)
