@@ -144,3 +144,117 @@
  Выбираем программу из локального диска ```EXPO26/robot4.lua```.  
  Запускаем на исполнение.  
  Программа будет выставлять все заготовки по очереди, имитировать их обработку и ставить обратно.  
+
+## Листинги программ
+
+### ```task1.lua```
+
+ Обработка заготовки
+
+```lua
+-- программа обработки детали типа 1
+
+local oX=100    -- расстояние парковки
+local sX=33.858 -- шаг между пеньками
+local dY=2.5    -- поворот на 1
+local sZ=25     -- шаг по Z
+
+-- имитация сверления
+local function drill()
+ M25()
+ M200('Z'.. -sZ)
+ M200('Z'..  sZ)
+ M24()
+end
+
+-- обработка стороны
+local function side()
+ drill()
+ M200('X'.. sX)
+ drill()
+end
+
+mach.Speed=800
+
+M200('Y'.. 45*dY)
+--[[СТОРОНА 1]]
+M200('X'..-(oX+sX))
+side()
+M200('X'.. oX)
+M200('Y'.. -90*dY)
+
+--[[СТОРОНА 2]]
+M200('X'..-(oX+sX))
+side()
+M200('X'.. oX)
+M200('Y'.. -90*dY)
+
+--[[СТОРОНА 3]]
+M200('X'..-(oX+sX))
+side()
+M200('X'.. oX)
+M200('Y'.. 135*dY)
+
+return true -- дошли до конца, хорошо
+```
+
+### ```robot4.lua```
+
+Мастер программа вызывающая смену заготовок и вызов задач обработки
+
+```lua
+-- обработка 4х заготовок с автоподачей из паллета
+
+function string:endsWith(suffix)
+    -- Проверяем, что суффикс не пустой и совпадает с концом строки
+    if #suffix == 0 then
+        return true
+    end
+    -- Берём последние символы длины suffix из строки и сравниваем
+    return self:sub(-#suffix) == suffix
+end
+
+function M338(prg)
+
+ if not prg:endsWith(".lua") then prg = prg..".lua" end
+ prg = sys:getCurPrgPath()..prg
+ local ok, res = pcall(dofile, prg)
+ print(ok, res)
+
+ return ok and res
+end
+
+
+-- Установка заданий (4 одинаковых слота)
+M334(1,'D1','task1')
+M334(2,'D1','task1')
+M334(3,'D1','task1')
+M334(4,'D1','task1')
+
+
+-- Проверка оборудования
+if M332(10) then
+
+ local R=require("d10dobot")
+
+ -- перебор слотов
+ for i=1,4 do
+  local name,prg = R.plGetSlot(i)
+  if prg and prg~="" then
+   if M335(i) then
+    -- запускаем подпрограмму
+    -- ?? возможно сохранить / восстановить глобальные 
+    local res = M338(prg)
+    -- TODO: сделать пометку на палете (обработана)
+    -- возвращаем деталь
+    if not M336() then 
+     break -- ошибка
+    end
+   else
+    break -- ошибка
+   end
+  end
+ end
+
+end
+```
