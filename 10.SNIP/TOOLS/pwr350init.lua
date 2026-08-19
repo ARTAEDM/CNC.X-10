@@ -23,8 +23,9 @@ local function calibrate()
   sys:SLEEP(100);
   val = val + unio:getAin(adr)
   val = val / 5;
-
-  file:write('V:' .. tostring(V)..' = ' .. string.format("%4.0f",val),'\n');
+  if file then
+   file:write('V:' .. tostring(V)..' = ' .. string.format("%4.0f",val),'\n');
+  end
   return val
  end
 
@@ -50,25 +51,27 @@ local function calibrate()
 
  local answ=''
 
- file:write('vlt.cnv.TAB="')
+ if file then file:write('vlt.cnv.TAB="') end
  --vlt.cnv.TAB="254=350;291=300;542=250;741=200;1043=150;1290=100;1777=0"
  if res[1] > res[2] then
   -- reverce
   for i=#res,1,-1 do
    local tmp = string.format('%.0f=%d',res[i],vlist[i-1] or 0)
-   file:write(tmp);answ=answ..tmp
-   if i>1 then file:write(';');answ=answ..';' end
+   if file then file:write(tmp) end;answ=answ..tmp
+   if i>1 then if file then file:write(';') end;answ=answ..';' end
   end
  else
   -- normal
   for i=1,#res do
    local tmp = string.format('%.0f=%d',res[i],vlist[i-1] or 0) 
-   file:write(tmp);answ=answ..tmp
-   if i<#res then file:write(';');answ=answ..';' end
+   if file then file:write(tmp) end;answ=answ..tmp
+   if i<#res then if file then file:write(';') end;answ=answ..';' end
   end
  end
- file:write('"\n')
- file:close() -- закрываем файл
+ if file then 
+  file:write('"\n')
+  file:close() -- закрываем файл
+ end
 
  return answ
 end
